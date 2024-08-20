@@ -95,6 +95,7 @@ body {
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: .7s;
+    white-space: nowrap;
 }   
 
 .home-content h3 {
