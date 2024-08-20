@@ -42,8 +42,8 @@ function updateMatrix() {
     // Draw the character at the current position
     ctx.fillText(character, i * 20, y);
 
-    // Move the column down by 20 units
-    yPositions[i] += 20;
+    // Move the column down by a slower speed (5 units)
+    yPositions[i] += 5;
 
     // Reset the position if it reaches the bottom of the canvas
     if (yPositions[i] > canvasHeight && Math.random() > 0.98) {
