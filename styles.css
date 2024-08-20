@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'VT323', monospace;
+    background-color: #0e0e0e;
+    color: #00ff00;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: #111;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background: #000;
+    color: #00ff00;
+}
+
+#hero h2 {
+    font-size: 48px;
+}
+
+#hero p {
+    font-size: 24px;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Project Section */
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-list li {
+    background: #111;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    background: #00ff00;
+    color: #0e0e0e;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #111;
+}
