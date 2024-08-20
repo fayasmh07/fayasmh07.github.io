@@ -184,6 +184,7 @@ body {
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2.1s, 3.1s;
     align-items: center;
+    justify-content: center
 }
 
 .home-img .glowing-circle {
