@@ -183,6 +183,7 @@ body {
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2.1s, 3.1s;
+    align-items: center;
 }
 
 .home-img .glowing-circle {
@@ -224,6 +225,7 @@ body {
     transform: translate(-50%);
     max-width: 350px;
     object-fit: cover;
+    align-items: center;
 }
 
 .glowing-circle .image {
