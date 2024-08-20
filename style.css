@@ -227,8 +227,9 @@ body {
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    max-width: 350px;
+    max-width: 380px;
     object-fit: cover;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
