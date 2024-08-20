@@ -46,7 +46,7 @@ function updateMatrix() {
     yPositions[i] += 10;
 
     // Reset the position if it reaches the bottom of the canvas
-    if (yPositions[i] > canvasHeight && Math.random() > 0.98) {
+    if (yPositions[i] > canvasHeight && Math.random() > 0.9) {
       yPositions[i] = 0;
     }
   }
