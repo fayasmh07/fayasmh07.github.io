@@ -279,12 +279,12 @@ canvas {
     justify-content: center;
     align-items: flex-start;
     height: 100vh; /* Make the section full-height */
-    padding-top: 50px; /* Adjust this value to move content down/up */
+    padding-top: 300px; /* Adjust this value to move content down/up */
 }
 
 .about-content {
     text-align: center;
-    max-width: 800px; /* Optional: Restrict the width for better readability */
+    max-width: 1200px; /* Optional: Restrict the width for better readability */
     margin: 0 auto;
 }
 
