@@ -309,7 +309,11 @@ canvas {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-top: 100px;
+}
+
+/* Specific Padding for Skills Section Header */
+.skills-header {
+    padding-top: 20px; /* Add top padding specifically for the Skills section header */
 }
 
 /* Skills Section */
