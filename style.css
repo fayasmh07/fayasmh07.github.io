@@ -317,6 +317,7 @@ canvas {
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
+    padding-top: 60px;
     background-color: #121212;
 }
 
@@ -325,7 +326,7 @@ canvas {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     width: 80%;
-    padding-top: 50px; /* Added top padding for spacing */
+    padding-top: 20px; /* Added top padding for spacing */
 }
 
 .skill-box {
