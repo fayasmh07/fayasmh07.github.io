@@ -275,35 +275,29 @@ canvas {
 /* ---------------------------About----------------------- */
 
 .about {
-    width: 100%;
-    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 70px 10% 0;
-    margin-top: 10% ;
-}
-    
-.about-img img{
-    padding: auto;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh; /* Make the section full-height */
+    padding-top: 50px; /* Adjust this value to move content down/up */
 }
 
-.about-content h3{
-    font-size: 32px;
-    font-weight: 700;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1s;
+.about-content {
+    text-align: center;
+    max-width: 800px; /* Optional: Restrict the width for better readability */
+    margin: 0 auto;
 }
 
-.about-content p{
-    font-size: 16px;
-    margin: 20px 0 0;
-    text-align: left;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: 1.3s;
+.about-content h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
+
+.about-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
 
 /* Animation */
 @keyframes slideTop {
