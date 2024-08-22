@@ -399,6 +399,7 @@ canvas {
     color: #fff;
     margin-bottom: 30px;
     padding-top: 50px; /* 50px padding from the top */
+    letter-spacing: 0;
 }
 
 .projects-container {
