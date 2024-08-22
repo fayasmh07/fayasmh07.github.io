@@ -389,7 +389,7 @@ canvas {
 
 /* General styles for the section and container */
 .projects {
-    background-color: #f4f4f4;
+    background-color: #121212;
     padding: 50px 20px 20px 20px;
 }
 
@@ -397,6 +397,7 @@ canvas {
     font-size: 2em;
     text-align: center;
     margin-bottom: 30px;
+    padding-top: 50px;
 }
 
 .projects-container {
