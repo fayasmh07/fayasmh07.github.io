@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Fayas</title>
+
+    <link rel="icon" type="png|image" href="sailogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">M3T4 HUS7LER</a>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1;" class="active">Home</a>
+            <a href="about.html" style="--i:1;" class="active">About</a>
+            <a href="skills.html" style="--i:2;" class="active">Skills</a>
+            <a href="projects.html" style="--i:3;" class="active">Projects</a>
+            <a href="contact.html" style="--i:4;">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" style="padding-top: 50px;">
+        <h3 class="section-header projects-header">Projects</h3>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-name">Project SIGMA</div>
+                <div class="project-description">A Raspberry Pi-based server offering web hosting, file storage, SSH, and remote desktop services, accessible over the internet via port forwarding.</div>
+            </div>
+            <div class="project-box">
+                <div class="project-name">Transit Fare Collection CTF</div>
+                <div class="project-description">A Capture the Flag (CTF) challenge simulating a transit system fare collection scenario, focusing on exploiting vulnerabilities and securing the system.</div>
+            </div>
+            <div class="project-box">
+                <div class="project-name">Web Application Pentest</div>
+                <div class="project-description">A penetration testing project targeting a web application to identify and exploit security vulnerabilities, followed by reporting and remediation recommendations.</div>
+            </div>
+            <div class="project-box">
+                <div class="project-name">Networking Lab</div>
+                <div class="project-description">A networking setup involving multiple virtual machines to practice network configuration, monitoring, and security assessments.</div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* General styles for the section and container */
+        .projects {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .projects-header {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Styles for the project boxes */
+        .project-box {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-name {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+            width: 40%;
+        }
+
+        .project-description {
+            font-size: 1em;
+            color: #666;
+            width: 60%;
+        }
+
+        /* Hover effect for the project name */
+        .project-name:hover {
+            color: #000;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            padding: 5px;
+        }
+    </style>
+
+</body>
+</html>
