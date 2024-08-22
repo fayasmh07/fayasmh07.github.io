@@ -451,11 +451,12 @@ canvas {
 }
 
 .contact-header {
-    font-size: 2em;
+    font-size: 2.5em; /* Increased font size */
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
     padding-top: 50px; /* 50px padding from the top */
+    letter-spacing: 0; /* Remove extra space between letters */
 }
 
 /* Contact form styles */
@@ -478,12 +479,12 @@ canvas {
 .input-box input[type="text"],
 .input-box textarea {
     width: 100%;
-    padding: 10px;
+    padding: 15px; /* Increased padding */
     background-color: #000; /* Black background */
     border: 2px solid #ff0000; /* Red neon border */
     border-radius: 8px;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em; /* Increased font size */
     transition: border-color 0.3s ease;
 }
 
@@ -516,12 +517,12 @@ canvas {
 /* Social icons in the contact page */
 .contact-sci {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .contact-sci a {
-    font-size: 2.5em; /* Slightly larger icons */
-    margin: 0 10px;
+    font-size: 2.8em; /* Increased icon size */
+    margin: 0 15px; /* Increased margin */
     color: #fff;
     transition: color 0.3s ease;
 }
