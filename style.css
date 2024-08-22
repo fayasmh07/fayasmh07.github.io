@@ -389,7 +389,7 @@ canvas {
 
 /* General styles for the section and container */
 .projects {
-    background-color: #121212;
+    background-color: #f4f4f4;
     padding: 50px 20px 20px 20px;
 }
 
@@ -397,7 +397,6 @@ canvas {
     font-size: 2em;
     text-align: center;
     margin-bottom: 30px;
-    padding-top: 50px;
 }
 
 .projects-container {
@@ -410,17 +409,20 @@ canvas {
 .project-box {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #000; /* Black background */
+    border: 2px solid #ff0000; /* Red neon border */
     border-radius: 8px;
+    height: 20px;
     transition: background-color 0.3s ease;
 }
 
 .project-name {
     font-weight: bold;
     font-size: 1.2em;
-    color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
     width: 40%;
 }
 
@@ -432,11 +434,14 @@ canvas {
 
 /* Hover effect for the project name */
 .project-name:hover {
-    color: #000;
-    background-color: #f0f0f0;
-    border-radius: 4px;
-    padding: 5px;
+    color: #ff0000; /* Red neon color on hover */
 }
+
+/* Red neon color for active project name */
+.project-name:active {
+    color: #ff0000; /* Red neon color when clicked */
+}
+
 
 
 /* Animation */
