@@ -415,10 +415,11 @@ canvas {
     background-color: #000; /* Black background */
     border: 2px solid #ff0000; /* Red neon border */
     border-radius: 8px;
-    height: 20px;
     transition: background-color 0.3s ease;
+    align-items: center; /* Center content vertically */
 }
 
+/* Style for project name */
 .project-name {
     font-weight: bold;
     font-size: 1.2em;
@@ -428,6 +429,7 @@ canvas {
     width: 40%;
 }
 
+/* Style for project description */
 .project-description {
     font-size: 1em;
     color: #999;
@@ -439,6 +441,7 @@ canvas {
     color: #ff0000; /* Red color on hover */
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000; /* Red neon glow effect */
 }
+
 
 
 
