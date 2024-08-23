@@ -277,6 +277,7 @@ canvas {
 .about {
     display: flex;
     justify-content: center;
+    color: #ffffff;
     align-items: flex-start;
     height: 100vh; /* Make the section full-height */
     padding-top: 300px; /* Adjust this value to move content down/up */
