@@ -1,1 +1,5 @@
-![preview](https://github.com/user-attachments/assets/9743a327-96d8-42e4-b2e1-f291f356735c)
+<p align="center">
+  <a href="https://fayasmh07.github.io">
+    <img src="https://github.com/fayasmh07/fayasmh07.github.io/blob/main/assets/preview.gif" alt="preview">
+  </a>
+</p>
